@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    font-family: "PT Serif", serif;
+    background-color: #a8abb2;
+    
+    font-size: 30px;
+    color : white;
+    background-image: url('C:\\Users\\HuaweiGoxa\\OneDrive\\Рабочий стол\\IT\web\\Final\\queen_main_desktop.png');
+}
+
+
+body > header{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    
+    
+}
+
+header > img{
+    width : 20%;
+    top : 20px;
+    left : 20px;
+    z-index: 1;
+    pointer-events: none;
+}
+
+header > nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    z-index: 1;
+    
+}
+
+header > nav > ul{
+    width : 70%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding : 20px;
+    
+    
+
+}
+
+.vs{
+    position: absolute;
+    z-index: -1;
+    width: 101.05%;
+    height: 736px;
+    top: -8px;
+    left : -8px;
+}
+
